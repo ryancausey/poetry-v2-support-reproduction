@@ -1,0 +1,23 @@
+[project]
+name = "poetry-v2-support-reproduction"
+version = "1.0.0"
+description = "This is a minimal reproduction for the renovate bot discussion."
+readme = "README.md"
+requires-python = ">=3.11,<4.0"
+dependencies = [
+    "algoliasearch==4.11.2",
+]
+
+[project.optional-dependencies]
+decouple = ["python-decouple==3.6"]
+
+[[project.authors]]
+name = "Ryan Causey"
+email = "ryan.causey@munipal.io"
+
+[[tool.poetry.packages]]
+include = "minimal_reproduction"
+
+[build-system]
+requires = ["poetry-core==2.0.0"]
+build-backend = "poetry.core.masonry.api"
