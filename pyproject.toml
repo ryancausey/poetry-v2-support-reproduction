@@ -9,7 +9,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-decouple = ["python-decouple==3.6"]
+decouple = ["python-decouple==3.8"]
 
 [[project.authors]]
 name = "Ryan Causey"
