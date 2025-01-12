@@ -19,5 +19,5 @@ email = "ryan.causey@munipal.io"
 include = "minimal_reproduction"
 
 [build-system]
-requires = ["poetry-core==2.0.0"]
+requires = ["poetry-core==2.0.1"]
 build-backend = "poetry.core.masonry.api"
