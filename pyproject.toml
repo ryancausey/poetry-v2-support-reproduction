@@ -5,7 +5,7 @@ description = "This is a minimal reproduction for the renovate bot discussion."
 readme = "README.md"
 requires-python = ">=3.11,<4.0"
 dependencies = [
-    "algoliasearch==4.11.2",
+    "algoliasearch==4.13.2",
 ]
 
 [project.optional-dependencies]
