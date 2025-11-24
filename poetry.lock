@@ -127,14 +127,14 @@ frozenlist = ">=1.1.0"
 
 [[package]]
 name = "algoliasearch"
-version = "4.11.2"
+version = "4.34.0"
 description = "A fully-featured and blazing-fast Python API client to interact with Algolia."
 optional = false
 python-versions = ">=3.8.1"
 groups = ["main"]
 files = [
-    {file = "algoliasearch-4.11.2-py3-none-any.whl", hash = "sha256:d7638a4f3e6f3df02be3c4a46f739c28e756eda019933bcc9145f42c94119a71"},
-    {file = "algoliasearch-4.11.2.tar.gz", hash = "sha256:51400d4bd041147515d96149a4198881ad70066bcfccf6f468d8d3b2e5de649d"},
+    {file = "algoliasearch-4.34.0-py3-none-any.whl", hash = "sha256:b9cfc61de0e85a8f5c969ca530b65e8c602c3382e072d12d1b76b70fc6bfe497"},
+    {file = "algoliasearch-4.34.0.tar.gz", hash = "sha256:d7a0235bcd49a222226f4a0800aaaf98a87ea4a8a788e6e515aa1745fb6c1f10"},
 ]
 
 [package.dependencies]
@@ -143,7 +143,7 @@ async-timeout = ">=4.0.3"
 pydantic = ">=2"
 python-dateutil = ">=2.8.2"
 requests = ">=2.32.3"
-urllib3 = ">=1.25.3"
+urllib3 = ">=2.2.3"
 
 [[package]]
 name = "annotated-types"
@@ -943,4 +943,4 @@ decouple = ["python-decouple"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.11,<4.0"
-content-hash = "e457aa1970559dd9cd1e97b8b4c69af0fc529e5e3496ad3255304d1728d3bd10"
+content-hash = "7e7b5ea00cacb7f35e152fa34f2fe8977da4613918ce66b2234f89aa53f35c0e"
